@@ -1,0 +1,2396 @@
+2023.02.24 23:48:23 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /.metals/lsp.trace.json or /Users/joelcarlson/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.02.24 23:48:24 INFO  logging to file /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /.metals/metals.log
+2023.02.24 23:48:24 INFO  Started: Metals version 0.11.10 in workspace '/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 ' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/joelcarlson/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.24 23:48:25 INFO  time: initialize in 1.6s
+2023.02.24 23:48:29 WARN  Build server is not auto-connectable.
+2023.02.24 23:48:29 WARN  no build tool detected in workspace '/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 '. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.02.24 23:48:29 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java
+2023.02.24 23:48:29 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Model.java
+2023.02.24 23:48:29 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Main.java
+2023.02.24 23:48:29 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java
+Feb 24, 2023 11:48:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2023.02.24 23:48:30 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/Main.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Main.java:5: error: cannot find symbol
+    Controller c;
+    ^
+  symbol:   class Controller
+  location: class Main
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Main.java:11: error: cannot find symbol
+        c = new Controller();
+                ^
+  symbol:   class Controller
+  location: class Main
+2 errors
+2023.02.24 23:48:30 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java:5: error: cannot find symbol
+    private View view;
+            ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java:9: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java:10: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+4 errors
+2023.02.24 23:48:30 INFO  time: code lens generation in 1.51s
+2023.02.24 23:48:31 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2023.02.24 23:48:31 INFO  time: code lens generation in 2.45s
+2023.02.24 23:48:32 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/Model.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+2023.02.24 23:50:57 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java
+2023.02.24 23:50:57 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2023.02.24 23:50:59 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java
+2023.02.24 23:51:00 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java:19: error: cannot find symbol
+        jf
+        ^
+  symbol:   class jf
+  location: class View
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+2023.02.24 23:51:01 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java
+2023.02.24 23:51:02 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2023.02.24 23:51:03 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java
+2023.02.24 23:51:03 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java:19: error: cannot find symbol
+        JF
+        ^
+  symbol:   class JF
+  location: class View
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+2023.02.24 23:51:06 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java
+2023.02.24 23:51:06 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java:19: error: cannot find symbol
+        fram
+        ^
+  symbol:   class fram
+  location: class View
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+2023.02.24 23:51:10 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java
+2023.02.24 23:51:11 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2023.02.24 23:51:26 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java
+2023.02.24 23:51:26 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java:19: error: <identifier> expected
+        frame.setDefaultCloseOperation.;
+                                       ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java:19: error: not a statement
+        frame.setDefaultCloseOperation.;
+                                      ^
+2 errors
+2023.02.24 23:51:27 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java
+2023.02.24 23:51:28 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java:19: error: not a statement
+        frame.setDefaultCloseOperation;
+             ^
+1 error
+2023.02.24 23:51:31 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java
+2023.02.24 23:51:32 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java:19: error: cannot find symbol
+        frame.setDefaultCloseOperation(W);
+                                       ^
+  symbol:   variable W
+  location: class View
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+2023.02.24 23:51:36 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java
+2023.02.24 23:51:37 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java:19: error: cannot find symbol
+        frame.setDefaultCloseOperation(Ex);
+                                       ^
+  symbol:   variable Ex
+  location: class View
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+2023.02.24 23:51:38 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java
+2023.02.24 23:51:39 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java:19: error: cannot find symbol
+        frame.setDefaultCloseOperation(Exit);
+                                       ^
+  symbol:   variable Exit
+  location: class View
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+2023.02.24 23:51:43 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java
+2023.02.24 23:51:44 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java:19: error: cannot find symbol
+        frame.setDefaultCloseOperation(Window);
+                                       ^
+  symbol:   variable Window
+  location: class View
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+2023.02.24 23:51:47 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java
+2023.02.24 23:51:47 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java:19: error: cannot find symbol
+        frame.setDefaultCloseOperation(WindowConstants);
+                                       ^
+  symbol:   variable WindowConstants
+  location: class View
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+2023.02.24 23:51:49 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java
+2023.02.24 23:51:49 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2023.02.24 23:53:02 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java
+2023.02.24 23:53:02 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2023.02.24 23:53:27 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:53:28 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+     private View view;
+             ^
+  symbol:   class View
+  location: class Controller
+1 error
+2023.02.24 23:53:28 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Main.java
+2023.02.24 23:53:29 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Main.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Main.java:5: error: cannot find symbol
+    Controller controller;
+    ^
+  symbol:   class Controller
+  location: class Main
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Main.java:12: error: cannot find symbol
+        controller = new Controller();
+                         ^
+  symbol:   class Controller
+  location: class Main
+2 errors
+2023.02.24 23:53:29 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Model.java
+2023.02.24 23:53:29 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Model.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+2023.02.24 23:53:30 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/View.java
+2023.02.24 23:53:31 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2023.02.24 23:56:26 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:56:26 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+     private View view;
+             ^
+  symbol:   class View
+  location: class Controller
+1 error
+2023.02.24 23:56:27 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:56:28 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:12: error: <identifier> expected
+    class 
+         ^
+1 error
+2023.02.24 23:56:30 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:56:30 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:12: error: '{' expected
+    class ad
+            ^
+1 error
+2023.02.24 23:56:35 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:56:35 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:12: error: '{' expected
+    class AddButtonActionListener
+                                 ^
+1 error
+2023.02.24 23:56:41 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:56:41 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:12: error: '{' expected
+    class AddButtonActionListener implements ActionListener
+                                                           ^
+1 error
+2023.02.24 23:56:43 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:56:43 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+     private View view;
+             ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:12: error: Controller.AddButtonActionListener is not abstract and does not override abstract method actionPerformed(ActionEvent) in ActionListener
+    class AddButtonActionListener implements ActionListener{
+    ^
+2 errors
+2023.02.24 23:56:49 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:56:50 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:13: error: reached end of file while parsing
+}
+ ^
+1 error
+2023.02.24 23:56:51 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:56:51 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+     private View view;
+             ^
+  symbol:   class View
+  location: class Controller
+1 error
+2023.02.24 23:56:52 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:56:53 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+     private View view;
+             ^
+  symbol:   class View
+  location: class Controller
+1 error
+2023.02.24 23:56:56 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:56:57 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: <identifier> expected
+        view.
+             ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: not a statement
+        view.
+            ^
+2 errors
+2023.02.24 23:57:03 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:57:03 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+     private View view;
+             ^
+  symbol:   class View
+  location: class Controller
+1 error
+2023.02.24 23:57:05 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:57:05 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+     private View view;
+             ^
+  symbol:   class View
+  location: class Controller
+1 error
+Feb 24, 2023 11:57:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 350
+2023.02.24 23:57:07 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:57:08 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:57:08 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: '(' or '[' expected
+        view.setAddButton(new A);
+                               ^
+1 error
+2023.02.24 23:57:08 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: '(' or '[' expected
+        view.setAddButton(new AD);
+                                ^
+1 error
+2023.02.24 23:57:08 INFO  time: code lens generation in 1.37s
+2023.02.24 23:57:12 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:57:12 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: '(' or '[' expected
+        view.setAddButton(new add);
+                                 ^
+1 error
+2023.02.24 23:57:14 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:57:14 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: '(' or '[' expected
+        view.setAddButton(new addbu);
+                                   ^
+1 error
+2023.02.24 23:57:17 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:57:18 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+     private View view;
+             ^
+  symbol:   class View
+  location: class Controller
+1 error
+2023.02.24 23:57:22 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:57:22 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+     private View view;
+             ^
+  symbol:   class View
+  location: class Controller
+1 error
+2023.02.24 23:57:24 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:57:24 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: <identifier> expected
+        view.setAddButtonActionListener(new );
+                                           ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: '(' or '[' expected
+        view.setAddButtonActionListener(new );
+                                            ^
+2 errors
+2023.02.24 23:57:26 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:57:27 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: '(' or '[' expected
+        view.setAddButtonActionListener(new ad);
+                                              ^
+1 error
+2023.02.24 23:57:31 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:57:31 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: '(' or '[' expected
+        view.setAddButtonActionListener(new addbuttons);
+                                                      ^
+1 error
+2023.02.24 23:57:33 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:57:34 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+     private View view;
+             ^
+  symbol:   class View
+  location: class Controller
+1 error
+2023.02.24 23:57:37 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:57:38 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+     private View view;
+             ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+2 errors
+2023.02.24 23:58:12 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:58:13 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+     private View view;
+             ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+2 errors
+2023.02.24 23:58:15 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:58:16 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+     private View view;
+             ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+2 errors
+2023.02.24 23:58:17 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:58:17 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+     private View view;
+             ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+2 errors
+2023.02.24 23:58:23 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java
+2023.02.24 23:58:23 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java:5: error: cannot find symbol
+    private View view;
+            ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java:9: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java:10: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+4 errors
+2023.02.24 23:58:24 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java
+2023.02.24 23:58:25 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java:5: error: cannot find symbol
+    private View view;
+            ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java:9: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java:10: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+4 errors
+2023.02.24 23:58:29 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:58:29 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+1 error
+2023.02.24 23:58:30 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:58:31 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+2023.02.24 23:59:02 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/Controller.java
+2023.02.24 23:59:03 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/storage/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/storage'
+
+2023.02.24 23:59:27 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.24 23:59:27 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+    private View view;
+            ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:9: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+4 errors
+2023.02.24 23:59:39 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java
+2023.02.24 23:59:40 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/storage/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/storage'
+
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2023.02.24 23:59:46 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/View.java
+2023.02.24 23:59:46 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2023.02.25 00:02:17 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Model.java
+2023.02.25 00:02:27 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:02:28 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:27: error: <identifier> expected
+            model.(view.getSelectedListValue());
+                  ^
+1 error
+2023.02.25 00:02:30 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:02:30 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+    private View view;
+            ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:9: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+4 errors
+2023.02.25 00:02:32 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:02:32 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+    private View view;
+            ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:9: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+4 errors
+2023.02.25 00:02:46 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Model.java
+2023.02.25 00:02:47 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Model.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+2023.02.25 00:02:48 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Model.java
+2023.02.25 00:02:49 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Model.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Model.java:15: error: <identifier> expected
+    p void removeData(String item){
+     ^
+1 error
+2023.02.25 00:02:50 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Model.java
+2023.02.25 00:02:51 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Model.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+2023.02.25 00:02:52 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Model.java
+2023.02.25 00:02:53 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Model.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+2023.02.25 00:02:54 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Model.java
+2023.02.25 00:02:55 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Model.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Model.java:12: error: cannot find symbol
+     pvoid addData(String item){
+     ^
+  symbol:   class pvoid
+  location: class Model
+1 error
+2023.02.25 00:02:56 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Model.java
+2023.02.25 00:02:56 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Model.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+2023.02.25 00:02:58 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Model.java
+2023.02.25 00:02:58 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Model.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+2023.02.25 00:03:03 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Model.java
+2023.02.25 00:03:04 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Model.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+2023.02.25 00:03:07 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Model.java
+2023.02.25 00:03:07 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Model.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+2023.02.25 00:06:23 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:06:23 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+    private View view;
+            ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:9: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+4 errors
+2023.02.25 00:06:37 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:06:38 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+    private View view;
+            ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:9: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+4 errors
+2023.02.25 00:06:39 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:06:40 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+    private View view;
+            ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:9: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+4 errors
+2023.02.25 00:06:40 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:06:41 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+    private View view;
+            ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:9: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+4 errors
+2023.02.25 00:06:50 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:06:51 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+    private View view;
+            ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:9: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+4 errors
+2023.02.25 00:06:52 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:06:53 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+    private View view;
+            ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:9: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+4 errors
+2023.02.25 00:06:57 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:06:57 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+    private View view;
+            ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:9: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+4 errors
+2023.02.25 00:07:01 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:07:02 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:12: error: ';' expected
+        view.setDeleteButtonActionListener(new DeleteButtonActionListener());
+            ^
+1 error
+2023.02.25 00:07:05 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:07:06 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+    private View view;
+            ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:9: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+4 errors
+2023.02.25 00:07:11 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:07:11 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+    private View view;
+            ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:9: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+4 errors
+2023.02.25 00:07:12 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:07:13 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:11: error: <identifier> expected
+        view.setAddButton(new );
+                             ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:11: error: '(' or '[' expected
+        view.setAddButton(new );
+                              ^
+2 errors
+2023.02.25 00:07:16 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:07:16 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:11: error: '(' or '[' expected
+        view.setAddButton(new Ac);
+                                ^
+1 error
+2023.02.25 00:07:17 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:07:18 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+    private View view;
+            ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:9: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:11: error: <anonymous Controller$1> is not abstract and does not override abstract method actionPerformed(ActionEvent) in ActionListener
+        view.setAddButton(new ActionListener() {
+                                               ^
+5 errors
+2023.02.25 00:07:21 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:07:21 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:11: error: '(' or '[' expected
+        view.setAddButton(new Ac);
+                                ^
+1 error
+2023.02.25 00:07:22 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:07:22 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:11: error: <identifier> expected
+        view.setAddButton(new );
+                             ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:11: error: '(' or '[' expected
+        view.setAddButton(new );
+                              ^
+2 errors
+2023.02.25 00:07:26 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:07:27 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:12: error: ';' expected
+        view.setDeleteButtonActionListener(new DeleteButtonActionListener());
+            ^
+1 error
+2023.02.25 00:07:27 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:07:28 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:12: error: ';' expected
+        view.setDeleteButtonActionListener(new DeleteButtonActionListener());
+            ^
+1 error
+2023.02.25 00:07:32 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:07:32 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:11: error: ';' expected
+        view.setAddButtonActionListener()
+                                         ^
+1 error
+2023.02.25 00:07:40 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java
+2023.02.25 00:07:41 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java
+2023.02.25 00:07:42 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/storage/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/storage'
+
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2023.02.25 00:07:58 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java
+2023.02.25 00:08:15 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java
+2023.02.25 00:08:16 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java
+2023.02.25 00:08:17 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/storage/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/storage'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:53: error: package Controller does not exist
+    public void setDeleteButtonActionListener(Controller.DeleteButtonActionListener deleteButtonActionListener) {
+                                                        ^
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+1 error
+2023.02.25 00:08:27 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:08:28 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:11: error: <identifier> expected
+        view.setAddButtonActionListener(new )
+                                           ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:11: error: '(' or '[' expected
+        view.setAddButtonActionListener(new )
+                                            ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:11: error: ';' expected
+        view.setAddButtonActionListener(new )
+                                             ^
+3 errors
+2023.02.25 00:08:28 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:08:29 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:11: error: ';' expected
+        view.setAddButtonActionListener(new AddButtonActionListener())
+                                                                      ^
+1 error
+2023.02.25 00:08:30 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:08:31 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+    private View view;
+            ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:9: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+4 errors
+2023.02.25 00:08:45 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java
+2023.02.25 00:08:46 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java
+2023.02.25 00:08:47 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/storage/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/storage'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:51: error: package Controller does not exist
+    public void setAddButtonActionListener(Controller.AddButtonActionListener addButtonActionListener) {
+                                                     ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:53: error: package Controller does not exist
+    public void setDeleteButtonActionListener(Controller.DeleteButtonActionListener deleteButtonActionListener) {
+                                                        ^
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors
+2023.02.25 00:08:52 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java
+2023.02.25 00:09:25 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java
+2023.02.25 00:09:26 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/storage/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/storage'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:51: error: package Controller does not exist
+    public void setAddButtonActionListener(Controller.AddButtonActionListener addButtonActionListener) {
+                                                     ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:54: error: package Controller does not exist
+    public void setDeleteButtonActionListener(Controller.DeleteButtonActionListener deleteButtonActionListener) {
+                                                        ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:52: error: cannot find symbol
+        addButton.addActionListener(actionListener);
+                                    ^
+  symbol:   variable actionListener
+  location: class View
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 errors
+2023.02.25 00:09:34 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java
+2023.02.25 00:09:35 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/storage/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/storage'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:51: error: package Controller does not exist
+    public void setAddButtonActionListener(Controller.AddButtonActionListener addButtonActionListener) {
+                                                     ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:54: error: package Controller does not exist
+    public void setDeleteButtonActionListener(Controller.DeleteButtonActionListener deleteButtonActionListener) {
+                                                        ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:52: error: cannot find symbol
+        addButton.addActionListener(actionListener);
+                                    ^
+  symbol:   variable actionListener
+  location: class View
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:55: error: cannot find symbol
+        deleteButton.addActionListener(actionListener);
+                                       ^
+  symbol:   variable actionListener
+  location: class View
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 errors
+2023.02.25 00:09:45 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java
+2023.02.25 00:09:45 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/storage/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/storage'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:51: error: package Controller does not exist
+    public void setAddButtonActionListener(Controller.AddButtonActionListener addButtonActionListener) {
+                                                     ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:54: error: package Controller does not exist
+    public void setDeleteButtonActionListener(Controller.DeleteButtonActionListener deleteButtonActionListener) {
+                                                        ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:52: error: method addActionListener in class AbstractButton cannot be applied to given types;
+        addButton.addActionListener();
+                 ^
+  required: ActionListener
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:55: error: cannot find symbol
+        deleteButton.addActionListener(actionListener);
+                                       ^
+  symbol:   variable actionListener
+  location: class View
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 errors
+2023.02.25 00:09:47 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java
+2023.02.25 00:09:47 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/storage/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/storage'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:51: error: package Controller does not exist
+    public void setAddButtonActionListener(Controller.AddButtonActionListener addButtonActionListener) {
+                                                     ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:54: error: package Controller does not exist
+    public void setDeleteButtonActionListener(Controller.DeleteButtonActionListener deleteButtonActionListener) {
+                                                        ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:52: error: cannot find symbol
+        addButton.addActionListener( ad);
+                                     ^
+  symbol:   variable ad
+  location: class View
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:55: error: cannot find symbol
+        deleteButton.addActionListener(actionListener);
+                                       ^
+  symbol:   variable actionListener
+  location: class View
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+4 errors
+2023.02.25 00:09:48 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java
+2023.02.25 00:09:49 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/storage/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/storage'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:51: error: package Controller does not exist
+    public void setAddButtonActionListener(Controller.AddButtonActionListener addButtonActionListener) {
+                                                     ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:54: error: package Controller does not exist
+    public void setDeleteButtonActionListener(Controller.DeleteButtonActionListener deleteButtonActionListener) {
+                                                        ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:55: error: cannot find symbol
+        deleteButton.addActionListener(actionListener);
+                                       ^
+  symbol:   variable actionListener
+  location: class View
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 errors
+2023.02.25 00:09:52 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java
+2023.02.25 00:09:55 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java
+2023.02.25 00:09:56 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/storage/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/storage'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:51: error: package Controller does not exist
+    public void setAddButtonActionListener(Controller.AddButtonActionListener addButtonActionListener) {
+                                                     ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:54: error: package Controller does not exist
+    public void setDeleteButtonActionListener(Controller.DeleteButtonActionListener deleteButtonActionListener) {
+                                                        ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:55: error: method addActionListener in class AbstractButton cannot be applied to given types;
+        deleteButton.addActionListener();
+                    ^
+  required: ActionListener
+  found:    no arguments
+  reason: actual and formal argument lists differ in length
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+3 errors
+2023.02.25 00:09:58 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java
+2023.02.25 00:09:59 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/storage/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/storage'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:51: error: package Controller does not exist
+    public void setAddButtonActionListener(Controller.AddButtonActionListener addButtonActionListener) {
+                                                     ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java:54: error: package Controller does not exist
+    public void setDeleteButtonActionListener(Controller.DeleteButtonActionListener deleteButtonActionListener) {
+                                                        ^
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2 errors
+2023.02.25 00:10:50 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/Controller.java
+2023.02.25 00:10:51 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/Controller.java
+2023.02.25 00:10:52 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/storage/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/storage'
+
+2023.02.25 00:10:54 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/Controller.java
+2023.02.25 00:10:55 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/Controller.java
+2023.02.25 00:10:56 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/storage/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/storage'
+
+2023.02.25 00:11:10 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java
+2023.02.25 00:11:10 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/storage/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/storage'
+
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/storage/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2023.02.25 00:11:19 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/View.java
+2023.02.25 00:11:33 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/View.java
+2023.02.25 00:11:39 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/View.java
+2023.02.25 00:11:40 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/View.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+Note: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/View.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+2023.02.25 00:11:44 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java
+2023.02.25 00:11:45 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java:5: error: cannot find symbol
+    private View view;
+            ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java:9: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java:10: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+4 errors
+2023.02.25 00:11:51 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+2023.02.25 00:11:55 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:11:56 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+2023.02.25 00:12:04 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:12:05 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:4: error: cannot find symbol
+     private View view;
+             ^
+  symbol:   class View
+  location: class Controller
+1 error
+2023.02.25 00:15:29 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:15:30 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:4: error: cannot find symbol
+     private View view;
+             ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:7: error: cannot find symbol
+        model = new Model();
+        ^
+  symbol:   variable model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:7: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+3 errors
+2023.02.25 00:15:31 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:15:32 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:4: error: cannot find symbol
+     private View view;
+             ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:7: error: cannot find symbol
+        model = new Model();
+        ^
+  symbol:   variable model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:7: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:8: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+4 errors
+2023.02.25 00:15:35 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:15:35 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:4: error: cannot find symbol
+     private View view;
+             ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:7: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:8: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+4 errors
+2023.02.25 00:15:45 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:15:46 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:9: error: '(' or '[' expected
+        view.setAddButtonActionListener(new addbuttons);
+                                                      ^
+1 error
+2023.02.25 00:15:56 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:15:56 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:9: error: <identifier> expected
+        view.setAddButtonActionListener(new );
+                                           ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:9: error: '(' or '[' expected
+        view.setAddButtonActionListener(new );
+                                            ^
+2 errors
+2023.02.25 00:15:57 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:15:58 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:9: error: '(' or '[' expected
+        view.setAddButtonActionListener(new ac);
+                                              ^
+1 error
+2023.02.25 00:15:59 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:16:00 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:9: error: '(' or '[' expected
+        view.setAddButtonActionListener(new action);
+                                                  ^
+1 error
+2023.02.25 00:17:28 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java
+2023.02.25 00:17:36 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:17:36 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:9: error: '(' or '[' expected
+        view.setAddButtonActionListener(new add);
+                                               ^
+1 error
+2023.02.25 00:17:37 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:17:38 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:4: error: cannot find symbol
+     private View view;
+             ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:7: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:8: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+4 errors
+2023.02.25 00:17:40 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:17:41 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: not a statement
+        view
+        ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: ';' expected
+        view
+            ^
+2 errors
+2023.02.25 00:17:42 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:17:43 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: not a statement
+        view.set
+            ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: ';' expected
+        view.set
+                ^
+2 errors
+2023.02.25 00:17:45 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:17:45 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: not a statement
+        view.setDeleteButtonActionListener
+            ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: ';' expected
+        view.setDeleteButtonActionListener
+                                          ^
+2 errors
+2023.02.25 00:17:47 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:17:47 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: ';' expected
+        view.setDeleteButtonActionListener()
+                                            ^
+1 error
+2023.02.25 00:17:50 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:17:50 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: '(' or '[' expected
+        view.setDeleteButtonActionListener(new de)
+                                                 ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: ';' expected
+        view.setDeleteButtonActionListener(new de)
+                                                  ^
+2 errors
+2023.02.25 00:17:51 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:17:52 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: <identifier> expected
+        view.setDeleteButtonActionListener(new)
+                                              ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: ';' expected
+        view.setDeleteButtonActionListener(new)
+                                               ^
+2 errors
+2023.02.25 00:17:52 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:17:53 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: <identifier> expected
+        view.setDeleteButtonActionListener(new )
+                                              ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: '(' or '[' expected
+        view.setDeleteButtonActionListener(new )
+                                               ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: ';' expected
+        view.setDeleteButtonActionListener(new )
+                                                ^
+3 errors
+2023.02.25 00:17:54 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:17:55 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: '(' or '[' expected
+        view.setDeleteButtonActionListener(new de)
+                                                 ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: ';' expected
+        view.setDeleteButtonActionListener(new de)
+                                                  ^
+2 errors
+2023.02.25 00:17:57 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:17:58 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: '(' or '[' expected
+        view.setDeleteButtonActionListener(new delete )
+                                                      ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: ';' expected
+        view.setDeleteButtonActionListener(new delete )
+                                                       ^
+2 errors
+2023.02.25 00:18:33 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:18:34 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: '(' or '[' expected
+        view.setDeleteButtonActionListener(new deleteButton )
+                                                            ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: ';' expected
+        view.setDeleteButtonActionListener(new deleteButton )
+                                                             ^
+2 errors
+2023.02.25 00:18:36 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:18:37 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: '(' or '[' expected
+        view.setDeleteButtonActionListener(new deleteButtonActionListen )
+                                                                        ^
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: ';' expected
+        view.setDeleteButtonActionListener(new deleteButtonActionListen )
+                                                                         ^
+2 errors
+2023.02.25 00:18:39 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:18:39 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: ';' expected
+        view.setDeleteButtonActionListener(new deleteButtonActionListener(0) )
+                                                                              ^
+1 error
+2023.02.25 00:18:40 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:18:41 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: ';' expected
+        view.setDeleteButtonActionListener(new deleteButtonActionListener() )
+                                                                             ^
+1 error
+2023.02.25 00:18:42 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:18:42 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: ';' expected
+        view.setDeleteButtonActionListener(new deleteButtonActionListener())
+                                                                            ^
+1 error
+2023.02.25 00:18:43 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:18:44 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:4: error: cannot find symbol
+     private View view;
+             ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:7: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:8: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:10: error: cannot find symbol
+        view.setDeleteButtonActionListener(new deleteButtonActionListener());
+                                               ^
+  symbol:   class deleteButtonActionListener
+  location: class Controller
+5 errors
+2023.02.25 00:18:58 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:18:58 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:13: error: '{' expected
+    public class DeleteButtonActionListener im{
+                                           ^
+1 error
+2023.02.25 00:19:02 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:19:02 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:13: error: '{' expected
+    public class DeleteButtonActionListener impl{
+                                           ^
+1 error
+2023.02.25 00:19:08 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.02.25 00:19:09 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:13: error: '{' expected
+    public class DeleteButtonActionListener e{
+                                           ^
+1 error
+2023.02.25 00:19:21 INFO  shutting down Metals
+2023.03.01 12:53:12 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /.metals/lsp.trace.json or /Users/joelcarlson/Library/Caches/org.scalameta.metals/lsp.trace.json
+2023.03.01 12:53:13 INFO  logging to file /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /.metals/metals.log
+2023.03.01 12:53:13 INFO  Started: Metals version 0.11.10 in workspace '/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 ' for client Visual Studio Code 1.75.1.
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/joelcarlson/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.03.01 12:53:15 INFO  time: initialize in 2.26s
+2023.03.01 12:53:18 WARN  Build server is not auto-connectable.
+2023.03.01 12:53:18 WARN  no build tool detected in workspace '/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 '. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.03.01 12:53:18 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java
+2023.03.01 12:53:18 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Main.java
+2023.03.01 12:53:20 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Main.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Main.java:5: error: cannot find symbol
+    Controller controller;
+    ^
+  symbol:   class Controller
+  location: class Main
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Main.java:12: error: cannot find symbol
+        controller = new Controller();
+                         ^
+  symbol:   class Controller
+  location: class Main
+2 errors
+2023.03.01 12:53:21 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW_Code_2/412_hw7-2/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW_Code_2/412_hw7-2/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:4: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:5: error: cannot find symbol
+    private View view;
+            ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:7: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW_Code_2/412_hw7-2/src/Controller.java:8: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+4 errors
+2023.03.01 12:53:21 INFO  time: code lens generation in 1.89s
+2023.03.01 12:53:21 INFO  time: code lens generation in 1.9s
+2023.03.01 12:53:21 INFO  time: code lens generation in 2.89s
+2023.03.01 12:53:21 INFO  time: code lens generation in 2.89s
+2023.03.01 12:53:35 WARN  no build target for: /Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java
+2023.03.01 12:53:36 WARN  Running javac-semanticdb failed for file:///Users/joelcarlson/Library/Mobile%20Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS%20412%20/HW%20Code%20412/07_hw_412/src/Controller.java. Output:
+semanticdb-javac: unknown flag 'Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS'
+
+semanticdb-javac: unknown flag '412'
+
+semanticdb-javac: unknown flag '/HW'
+
+semanticdb-javac: unknown flag 'Code'
+
+semanticdb-javac: unknown flag '412/07_hw_412/src'
+
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java:5: error: cannot find symbol
+    private View view;
+            ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java:6: error: cannot find symbol
+    private Model model;
+            ^
+  symbol:   class Model
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java:9: error: cannot find symbol
+        view = new View();
+                   ^
+  symbol:   class View
+  location: class Controller
+/Users/joelcarlson/Library/Mobile Documents/com~apple~CloudDocs/Junior_22-23_Classes/CS 412 /HW Code 412/07_hw_412/src/Controller.java:10: error: cannot find symbol
+        model = new Model();
+                    ^
+  symbol:   class Model
+  location: class Controller
+4 errors
+2023.03.02 11:24:02 INFO  shutting down Metals

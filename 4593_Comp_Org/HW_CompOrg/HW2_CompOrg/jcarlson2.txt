@@ -1,0 +1,11 @@
+Assembly result: don’t know, I think that I did something wrong because I was not able to get it to output though I believe I did it almost right
+C-Program: 4556
+
+C-Program: took about 10 minutes to write pretty easy to debug just quite a few steps to get to it. Not difficult though
+
+
+Assembly: time to code took much longer because i struggled to get it to work , but in general it did take longer 
+Machine code: decently difficult for me but not too bad. In machine code it would take forever. Some of them just verifying they were correct took a while
+
+For some reason I struggled with the instructions for the c-program and had to change it a bit other than that was easy for it.
+For the assembly I made a stupid mistake that cost me about an hour trying to find it so that it would compile. I wasn’t able to figure out how I was supposed to output anything, but the registers showed that they were being used. I struggled a bit with the memory loading and putting it once I was done.
