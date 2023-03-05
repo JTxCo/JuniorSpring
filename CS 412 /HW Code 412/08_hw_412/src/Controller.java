@@ -60,7 +60,7 @@ public class Controller {
                     view.setWords(words);
                     String name = view.getWords(1);
                     int age = Integer.parseInt(view.getWords(2));
-                    view.getUpdateFieldName().setText(name);
+                    view.getUpdateFieldName().setText("jerry");
                     view.getUpdateFieldAge().setText(String.valueOf(age));
                     view.getUpdateButton().setEnabled(true);
                 }

@@ -34,15 +34,12 @@ public class View {
 
     private JPanel crtpanel;
 
-
-
     private  JTextField crtFieldName;
     private JTextField crtFieldAge;
     private JButton createButton;
 
     public View() {
         listModel = new DefaultListModel<String>();
-
         jlistdelete = new JList<>(listModel);
         jlistRead = new JList<>(listModel);
         jlistUpdate = new JList<>(listModel);
