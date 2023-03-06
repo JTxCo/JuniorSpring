@@ -70,7 +70,7 @@ public class Controller {
         public void actionPerformed(ActionEvent e) {
                 try {
                     name = view.getUpdateTextFieldName().getText();
-                    age = Integer.parseInt(view.getCreateTexfieldAge().getText());
+                    age = Integer.parseInt(view.getUpdateTextFieldAge().getText());
                     id = Integer.parseInt(view.getWords()[0]);
                     if (name == " "|| name.equals(" ")||name == null || name.equals(null)|| age <= 0 || name.contains(" ")){
                         System.out.println("you have inputted a bad name please do something else");
